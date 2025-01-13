@@ -1,11 +1,19 @@
-.nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: aliceblue;
-
+body {
+  background-image: url("https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
-li {
-  list-style: none;
-  justify-content: space-around;
+#wrapper {
+  display: flex;
+  flex-direction: column
+}
+
+#hero {
+  border: 10px black solid;
+  text-align: center;
+  padding: 100px;
+}
+
+#projects {
+  flex-direction: row;
+  justify-content: end;
 }
